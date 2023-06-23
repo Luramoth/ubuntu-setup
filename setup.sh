@@ -10,7 +10,7 @@ if [whoami -eq "root"]; then
 	ubuntu-drivers install
 
 	# install nessesary programs
-	apt install kate kitty krita neovim gimp nomacs fonts-jetbrains-mono steam wget gpg cmake keepassxc git neofetch fonts-paratype flameshot inkscape clang nodejs npm python3 build-essential htop flatpak gnome-software-plugin-flatpak
+	apt install kate kitty krita neovim gimp nomacs fonts-jetbrains-mono steam wget gpg cmake keepassxc git neofetch fonts-paratype flameshot inkscape clang nodejs npm python3 build-essential htop flatpak gnome-software-plugin-flatpak curl
 
 	# install jetbrains-toolbox
 	curl -fsSL https://raw.githubusercontent.com/nagygergo/jetbrains-toolbox-install/master/jetbrains-toolbox.sh | bash
@@ -26,6 +26,10 @@ if [whoami -eq "root"]; then
 
 	# download nessesary flatpak programs
 	flatpak install flathub com.discordapp.Discord org.telegram.desktop com.microsoft.Edge com.obsproject.Studio md.obsidian.obsidian com.github.tchx84.Flatseal io.github.shiftey.Desktop org.blender.Blender
+
+	# Nix package manager install
+	echo "installing Nix package manager..."
+	sh <(curl -L https://nixos.org/nix/install) --no-daemon
 
 	# dotfile time
 	echo "copying dotfiles..."
