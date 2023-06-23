@@ -1,8 +1,10 @@
 #!/bin/bash
 
 if [whoami -eq "root"]; then
-	apt update
-	apt upgrade
+	echo "starting up setup script.."
+
+	apt update -y
+	apt upgrade -y
 
 	# install drivers
 	ubuntu-drivers install
