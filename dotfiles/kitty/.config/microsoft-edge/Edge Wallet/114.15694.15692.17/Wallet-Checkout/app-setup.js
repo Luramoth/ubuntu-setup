@@ -1,0 +1,1 @@
+/nix/store/xyc5p9vw5axgd9mgs3igbj5nz9qgnqmy-home-manager-files/.config/kitty/.config/microsoft-edge/Edge Wallet/114.15694.15692.17/Wallet-Checkout/app-setup.js

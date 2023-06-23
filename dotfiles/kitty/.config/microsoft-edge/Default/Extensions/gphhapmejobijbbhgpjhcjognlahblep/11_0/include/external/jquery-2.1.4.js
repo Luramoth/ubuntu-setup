@@ -1,0 +1,1 @@
+/nix/store/xyc5p9vw5axgd9mgs3igbj5nz9qgnqmy-home-manager-files/.config/kitty/.config/microsoft-edge/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/11_0/include/external/jquery-2.1.4.js

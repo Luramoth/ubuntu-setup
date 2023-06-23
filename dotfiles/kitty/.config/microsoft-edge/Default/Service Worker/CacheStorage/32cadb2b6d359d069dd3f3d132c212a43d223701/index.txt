@@ -1,0 +1,1 @@
+/nix/store/xyc5p9vw5axgd9mgs3igbj5nz9qgnqmy-home-manager-files/.config/kitty/.config/microsoft-edge/Default/Service Worker/CacheStorage/32cadb2b6d359d069dd3f3d132c212a43d223701/index.txt
