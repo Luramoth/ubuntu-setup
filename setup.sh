@@ -29,7 +29,7 @@ if [whoami -eq "root"]; then
 
 	# dotfile time
 	echo "copying dotfiles..."
-	cp -r ./dotfiles/* ~/.config/1
+	cp -r ./dotfiles/* ~/.config/
 
 	echo "system should be setup, reboot reccomended"
 else
